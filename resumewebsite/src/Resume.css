@@ -1,0 +1,822 @@
+.resumecontainer{
+   background-image: linear-gradient(to right bottom, #ffffff, #eeedfa, #dadcf5, #c5cbf1, #acbced, #9ab1ec, #86a6ec, #709beb, #5f91ee, #4d87f0, #387df2, #1973f4);
+   height: auto;
+     
+}
+
+.location{
+   font-size:21px;
+   font-weight:bold;
+  
+   font-family: 'Yeseva One', cursive;
+}
+
+
+.historyofme{
+   font-size: 17px;
+  
+   font-family: 'Raleway', sans-serif;
+}
+
+
+.container2{
+ padding: 40px;
+   grid-gap:50px;
+ grid-column-gap: 200px;
+     display: grid;
+     grid-auto-rows: minmax(150px,auto);
+     grid-template-columns: repeat(2,1fr);
+     
+     
+ }
+
+
+ .boxresume{
+   display: grid;
+
+border: black;
+   color: rgb(0, 0, 0);
+
+   justify-items: center;
+   align-items: center;
+
+}
+
+.boxresume1{
+   grid-column: 1/3;
+   background: none;
+   
+}
+.titleresume6{
+   color: #046cbb;
+ 
+  
+   font-family: 'Abril Fatface', cursive;
+   
+   font-weight: bolder;
+}
+.titleresume{
+   font-size: xx-large;
+   font-weight: bold;
+   color: #046cbb;
+   font-family: 'Raleway', sans-serif;
+   
+}
+
+.boxresume3{
+
+  grid-row: 2/4;
+  grid-column: 2/3;
+}
+
+.boxresume4{
+   display: grid;
+  
+   grid-row: 3/7;
+}
+
+.boxresume5{
+
+   grid-row: 4/10;
+}
+.boxresume40{
+ 
+   grid-gap: 60px;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+}
+
+.icon1{
+   display: grid;
+   justify-items: center;
+   align-items: center;
+}
+
+.boxresume6{
+   grid-row: 7/10;
+}
+.boxresume7{
+   grid-column: 1/3;
+   background:none;
+text-align:end;
+color: #e6f9ff;
+align-items: flex-end;
+ 
+}
+
+.copyright{
+   color: rgb(0, 0, 0);
+   font-size:small;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* media querey for big screen 1500 max */
+
+
+
+
+
+@media (max-width: 1500px){
+   .resumecontainer{
+      background: rgb(255,255,255);
+      background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,111,194,0.3897934173669467) 100%);
+   }
+   
+   .location{
+      font-size:17px;
+      font-weight:bold;
+     
+      font-family: 'Yeseva One', cursive;
+   }
+   
+   
+   .historyofme{
+      font-size: 16px;
+     
+      font-family: 'Raleway', sans-serif;
+   }
+   
+   
+   .container2{
+      grid-auto-rows: minmax(150px,auto);
+          grid-template-columns: repeat(1,1fr);
+          grid-auto-columns: minmax(0px,auto);
+      grid-gap:50px;
+    grid-column-gap: 10px;
+        display: grid;
+        
+       
+        grid-template-areas:
+        "myresume"
+        "Education "
+        "workhis"
+        "skills"
+        "programming"
+        "projects"
+        "foot"
+        
+        
+        ;
+        
+        
+    }
+   
+   
+    .boxresume{
+      display: grid;
+   
+   border: black;
+      color: rgb(0, 0, 0);
+   
+      justify-items: center;
+      align-items: center;
+   
+   }
+   
+   .boxresume1{
+      
+      background: none;
+      grid-area: myresume;
+   }
+
+
+   .boxresume2{
+      
+      grid-column: 1/3;
+      grid-area: Education;
+   }
+   .titleresume6{
+      color: #046cbb;
+    
+     font-size: 35px;
+      font-family: 'Abril Fatface', cursive;
+      
+      font-weight: bolder;
+   }
+   .titleresume{
+      font-size: x-large;
+      font-weight: bold;
+      color: #046cbb;
+      font-family: 'Raleway', sans-serif;
+      
+   }
+   
+   .boxresume3{
+   grid-area: workhis;
+     grid-row: 10/12;
+     grid-column: 1/2;
+   }
+   
+   .boxresume4{
+      display: grid;
+     grid-area: programming;
+      grid-row: 7/10;
+   }
+   
+   .boxresume5{
+   grid-area: skills;
+      grid-row: 3/7;
+   }
+   .boxresume40{
+    
+      grid-gap: 60px;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+   }
+   
+   .icon1{
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      
+   }
+   
+   .boxresume6{
+      grid-area: projects;
+      grid-row: 12/14;
+   }
+   .boxresume7{
+     
+      background:none;
+   text-align:end;
+   color: #e6f9ff;
+   align-items: flex-end;
+   grid-area: foot;
+   grid-row: 14/14;
+   }
+   
+   .copyright{
+      color: rgb(0, 0, 0);
+      font-size:small;
+   }
+   
+   
+   
+   
+
+
+
+}
+
+
+
+
+/* media querey*****for phone screen************************************************************* */
+
+
+
+
+
+@media (max-width: 730px){
+   .resumecontainer{
+      background: rgb(255,255,255);
+      background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,111,194,0.3897934173669467) 100%);
+   }
+   
+   .location{
+      font-size:14px;
+      font-weight:bold;
+     
+      font-family: 'Yeseva One', cursive;
+   }
+   
+   
+   .historyofme{
+      font-size: 15px;
+     
+      font-family: 'Raleway', sans-serif;
+   }
+   
+   
+   .container2{
+      padding: 5px;
+      grid-auto-rows: minmax(150px,auto);
+          grid-template-columns: repeat(1,1fr);
+          grid-auto-columns: minmax(0px,auto);
+      grid-gap:50px;
+    grid-column-gap: 10px;
+        display: grid;
+        
+       
+        grid-template-areas:
+        "myresume"
+        "Education "
+        "workhis"
+        "skills"
+        "programming"
+        "projects"
+        "foot"
+        
+        
+        ;
+        
+        
+    }
+   
+   
+    .boxresume{
+      display: grid;
+   
+   border: black;
+      color: rgb(0, 0, 0);
+   
+      justify-items: center;
+      align-items: center;
+   
+   }
+   
+   .boxresume1{
+      
+      background: none;
+      grid-area: myresume;
+   }
+
+
+   .boxresume2{
+      
+      grid-column: 1/3;
+      grid-area: Education;
+   }
+   .titleresume6{
+      color: #046cbb;
+    
+     font-size: 35px;
+      font-family: 'Abril Fatface', cursive;
+      
+      font-weight: bolder;
+   }
+   .titleresume{
+      font-size: 25px;
+      font-weight: bold;
+      color: #046cbb;
+      font-family: 'Raleway', sans-serif;
+      
+   }
+   
+   .boxresume3{
+   grid-area: workhis;
+     grid-row: 10/12;
+     grid-column: 1/2;
+   }
+   
+   .boxresume4{
+      display: grid;
+     grid-area: programming;
+      grid-row: 7/10;
+   }
+   
+   .boxresume5{
+   grid-area: skills;
+      grid-row: 3/7;
+   }
+   .boxresume40{
+    
+      grid-gap: 60px;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+   }
+   
+   .icon1{
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      
+   }
+   
+   .boxresume6{
+      grid-area: projects;
+      grid-row: 12/14;
+   }
+   .boxresume7{
+     
+      background:none;
+   text-align:end;
+   color: #e6f9ff;
+   align-items: flex-end;
+   grid-area: foot;
+   grid-row: 14/14;
+   }
+   
+   .copyright{
+      color: rgb(0, 0, 0);
+      font-size:small;
+   }
+   
+   
+   
+   
+
+
+
+}
+
+
+
+
+
+/* media querey*****for  medium phone screen************************************************************* */
+
+
+
+
+
+@media (max-width: 730px){
+   .resumecontainer{
+      background: rgb(255,255,255);
+      background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,111,194,0.3897934173669467) 100%);
+   }
+   
+   .location{
+      font-size:14px;
+      font-weight:bold;
+     
+      font-family: 'Yeseva One', cursive;
+   }
+   
+   
+   .historyofme{
+      font-size: 13px;
+     
+      font-family: 'Raleway', sans-serif;
+   }
+   
+   
+   .container2{
+      padding: 5px;
+      grid-auto-rows: minmax(150px,auto);
+          grid-template-columns: repeat(1,1fr);
+          grid-auto-columns: minmax(0px,auto);
+      grid-gap:50px;
+    grid-column-gap: 10px;
+        display: grid;
+        
+       
+        grid-template-areas:
+        "myresume"
+        "Education "
+        "workhis"
+        "skills"
+        "programming"
+        "projects"
+        "foot"
+        
+        
+        ;
+        
+        
+    }
+   
+   
+    .boxresume{
+      display: grid;
+   
+   border: black;
+      color: rgb(0, 0, 0);
+   
+      justify-items: center;
+      align-items: center;
+   
+   }
+   
+   .boxresume1{
+      
+      background: none;
+      grid-area: myresume;
+   }
+
+
+   .boxresume2{
+      
+      grid-column: 1/3;
+      grid-area: Education;
+   }
+   .titleresume6{
+      color: #046cbb;
+    
+     font-size: 35px;
+      font-family: 'Abril Fatface', cursive;
+      
+      font-weight: bolder;
+   }
+   .titleresume{
+      font-size: 25px;
+      font-weight: bold;
+      color: #046cbb;
+      font-family: 'Raleway', sans-serif;
+      
+   }
+   
+   .boxresume3{
+   grid-area: workhis;
+     grid-row: 10/12;
+     grid-column: 1/2;
+   }
+   
+   .boxresume4{
+      display: grid;
+     grid-area: programming;
+      grid-row: 7/10;
+   }
+   
+   .boxresume5{
+   grid-area: skills;
+      grid-row: 3/7;
+      
+   }
+   .boxresume40{
+    
+      grid-gap: 60px;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+   }
+   
+   .icon1{
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      
+   }
+   
+   .boxresume6{
+      grid-area: projects;
+      grid-row: 12/14;
+   }
+   .boxresume7{
+      
+   text-align:end;
+   color: #e6f9ff;
+   align-items: flex-end;
+   grid-area: foot;
+   grid-row: 14/14;
+   }
+   
+   .copyright{
+      color: rgb(0, 0, 0);
+      font-size:small;
+   }
+   
+   
+   
+   
+
+
+
+}
+
+
+
+
+
+
+
+/* media querey*****for  smaller medium phone screen************************************************************* */
+
+
+
+
+
+@media (max-width: 476px){
+   .resumecontainer{
+      background: rgb(255,255,255);
+      background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,111,194,0.3897934173669467) 100%);
+   }
+   
+   .location{
+      font-size:11px;
+      font-weight:bold;
+     
+      font-family: 'Yeseva One', cursive;
+   }
+   
+   
+   .historyofme{
+      font-size: 10px;
+     
+      font-family: 'Raleway', sans-serif;
+   }
+   
+   
+   .container2{
+      padding: 5px;
+      grid-auto-rows: minmax(150px,auto);
+          grid-template-columns: repeat(1,1fr);
+          grid-auto-columns: minmax(0px,auto);
+      grid-gap:50px;
+    grid-column-gap: 10px;
+        display: grid;
+        
+       
+        grid-template-areas:
+        "myresume"
+        "Education "
+        "workhis"
+        "skills"
+        "programming"
+        "projects"
+        "foot"
+        
+        
+        ;
+        
+        
+    }
+
+
+
+    .text{
+      font-size: 30px;
+      font-weight: 500;
+      color: #3B9AE1;
+  }
+
+  div.circular-progress{
+   position: relative;
+   height: 130px;
+   width: 130px;
+   border-radius: 50%;
+   background: conic-gradient(#3B9AE1 252.6deg, #ededed 0deg);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+  .circular-progress1{
+   position: relative;
+   height: 130px;
+   width: 130px;
+   border-radius: 50%;
+   background: conic-gradient(#3B9AE1 216.6deg, #ededed 0deg);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+  div.circular-progress2{
+   position: relative;
+   height: 130px;
+   width: 130px;
+   border-radius: 50%;
+   background: conic-gradient(#3B9AE1 288.6deg, #ededed 0deg);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+  .circular-progress7{
+   position: relative;
+   height: 130px;
+   width: 130px;
+   border-radius: 50%;
+   background: conic-gradient(#3B9AE1 306.6deg, #ededed 0deg);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+  .circular-progress6{
+   position: relative;
+   height: 130px;
+   width: 130px;
+   border-radius: 50%;
+   background: conic-gradient(#3B9AE1 108.6deg, #ededed 0deg);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+  .circular-progress5{
+   position: relative;
+   height: 130px;
+   width: 130px;
+   border-radius: 50%;
+   background: conic-gradient(#3B9AE1 234.6deg, #ededed 0deg);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+  .circular-progress4{
+   position: relative;
+   height: 130px;
+   width: 130px;
+   border-radius: 50%;
+   background: conic-gradient(#3B9AE1 306.6deg, #ededed 0deg);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+    .circular-progress3{
+      position: relative;
+      height: 130px;
+      width: 130px;
+      border-radius: 50%;
+      background: conic-gradient(#3B9AE1 144.6deg, #ededed 0deg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+   
+    .boxresume{
+      display: grid;
+   
+   border: black;
+      color: rgb(0, 0, 0);
+   
+      justify-items: center;
+      align-items: center;
+   
+   }
+   
+   .boxresume1{
+      
+      background: none;
+      grid-area: myresume;
+   }
+
+
+   .boxresume2{
+      
+      grid-column: 1/3;
+      grid-area: Education;
+   }
+   .titleresume6{
+      color: #046cbb;
+    
+     font-size: 35px;
+      font-family: 'Abril Fatface', cursive;
+      
+      font-weight: bolder;
+   }
+   .titleresume{
+      font-size: 20px;
+      font-weight: bold;
+      color: #046cbb;
+      font-family: 'Raleway', sans-serif;
+      
+   }
+   
+   .boxresume3{
+   grid-area: workhis;
+     grid-row: 10/12;
+     grid-column: 1/2;
+   }
+   
+   .boxresume4{
+      display: grid;
+     grid-area: programming;
+      grid-row: 7/10;
+   }
+   
+   .boxresume5{
+   grid-area: skills;
+      grid-row: 3/7;
+      
+   }
+   .boxresume40{
+    
+      grid-gap: 60px;
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+   }
+   
+   .icon1{
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      
+   }
+   
+   .boxresume6{
+      grid-area: projects;
+      grid-row: 12/14;
+   }
+   .boxresume7{
+      
+   text-align:end;
+   color: #e6f9ff;
+   align-items: flex-end;
+   grid-area: foot;
+   grid-row: 14/14;
+   }
+   
+   .copyright{
+      color: rgb(0, 0, 0);
+      font-size:small;
+   }
+   
+   
+   
+   
+
+
+
+}
+

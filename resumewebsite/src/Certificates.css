@@ -1,0 +1,14 @@
+.Certificatecontainer{
+   
+    background-image: linear-gradient(to left bottom, #ffffff, #eeedfa, #dadcf5, #c5cbf1, #acbced, #98aee9, #83a1e5, #6c94e1, #5985dc, #4576d6, #2e67d1, #0a58ca);
+}
+
+
+
+ .container7{
+   
+      display: grid;
+      grid-auto-rows: minmax(180px,auto);
+      grid-template-columns: repeat(2,1fr);
+  
+  }

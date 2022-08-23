@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    width: 420px;
+   
+    border-radius: 8px;
+    
+    row-gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.circular-progress4{
+    position: relative;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background: conic-gradient(#3B9AE1 306.6deg, #ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress4::before{
+    content: "";
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.progress-value{
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #3B9AE1;
+}
+.text{
+    font-size: 30px;
+    font-weight: 500;
+    color: #3B9AE1;
+}
